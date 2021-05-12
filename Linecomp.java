@@ -21,8 +21,11 @@ double l2 =Math.round( sqrt( ((x4-x3) * (x4-x3)) + ((y4-y3) * (y4-y3)) ));
   if ( l1 == l2) {
      System.out.println("l1 is equal to l2");
   }
+  else if( l1 > l2) {
+     System.out.println("l1 is greater to l2");
+  }
   else{
-     System.out.println("l1 is not equal to l2");
+     System.out.println("l1 is less than l2");
   }
  }
 }
